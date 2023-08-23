@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Graphik LC TT;
+    src: url(./fonts/GraphikLCG-Regular.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Graphik LC TT;
+}
+
+.navigation{
+    padding:0px 51px 0px 51px;
+    border:1px solid black;
+}
+
+.navigation__menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navigation__sideleft{
+    display: flex;
+    justify-content:space-between;
+    gap:57px;
+}
+
+.navigation__item-logo{
+    width: 130px;
+    height: 28px;
+    margin:34px 0px 33px 0px;
+}
+
+.navigation__item{
+    color:black;
+    margin:39px 0 36px 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.navigation__side-right{
+    display: flex;
+    justify-content:space-between;
+    gap:10px;
+}
+
+.navigation__item-login{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    border:1px solid black;
+    width: 120px;
+    height: 45px; 
+    margin:25px 0px 25px 0px;
+}
+
+.navigation__item-tryfree{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    background:#FF6336;
+    border:1px solid black;
+    margin:25px 0px 25px 0px;
+    padding:0px 22px 0px 21px;
+}
+
+.accel-container{
+    display: flex;
+    padding:130px 67px 0px 75px;
+    justify-content: center;
+}
+
+.accel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.accel__in{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+.accel__tittle{
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.accel__textin{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.accel__tryit{
+    // margin:25px 0px 25px 0px;
+    // padding:0px 22px 0px 21px;
+    // color: #FFF;
+    // text-align: center;
+    // font-size: 16px;
+    // font-style: normal;
+    // font-weight: 600;
+    // line-height: 60px;
+    // background:#FF6336;
+    // border:1px solid black;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    background:#FF6336;
+    border:1px solid black;
+    padding:20px;
+}
+
+.accel__bookdemo{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    border:1px solid black;
+}
+
+.accel__textinlitt{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}

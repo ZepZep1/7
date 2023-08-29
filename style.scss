@@ -3,6 +3,15 @@
     src: url(./fonts/GraphikLCG-Regular.ttf);
 }
 
+$white:#FFF;
+$black:#000;
+$orange:#FF6336;
+$l-orange:#FF9C7D;
+$beige:#FFF8E4;
+$l-blue:#C9E8F2;
+$d-bige:#DABC98;
+$gray:#EEEEEE;
+
 @mixin font($fs, $fst, $fw,  $lh){
     font-size: $fs;
     font-weight: $fst;
@@ -20,7 +29,7 @@
 
 .navigation{
     padding:0px 51px 0px 51px;
-    border:1px solid black;
+    border-bottom:1px solid black;
 }
 
 .navigation__menu{
@@ -53,20 +62,20 @@
 }
 
 .navigation__item-login{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(16px,normal ,600 ,45px );
-    border:1px solid black;
+    border:1px solid $black;
     width: 120px;
     height: 45px; 
     margin:25px 0px 25px 0px;
 }
 
 .navigation__item-tryfree{
-    color: #FFF;
+    color: $white;
     text-align: center;
     @include font(16px,normal,600,45px);
-    background:#FF6336;
+    background:$orange;
     margin:25px 0px 25px 0px;
     padding:0px 22px 0px 21px;
 }
@@ -95,36 +104,36 @@
 }
 
 .accel__tittle{
-    color: #000;
+    color: $black;
     @include font(65px,normal,600,70px);
     margin-bottom:51px;
 }
 
 .accel__textin{
-    color: #000;
+    color: $black;
     @include font(25px,normal,400,35px);
     margin-bottom:50px;
     max-width: 75%;
 }
 
 .accel__tryit{
-    color: #FFF;
+    color: $white;
     text-align: center;
     @include font(16px,normal,600,45px);
-    background:#FF6336;
+    background:$orange;
     padding:20px 40px 20px 40px;
 }
 
 .accel__bookdemo{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(16px,normal,600,60px);
-    border:1px solid black;
+    border:1px solid $black;
     padding:20px 25px 20px 25px;
 }
 
 .accel__textinlitt{
-    color: #000;
+    color: $black;
     @include font(15px,normal,400,25px);
     margin-top:25px;
 }
@@ -137,7 +146,7 @@
 }
 
 .brandad{
-    background: #FF9C7D;
+    background: $black;
     padding:10px 75px 10px 75px; 
 }
 .brandad__tittle{
@@ -148,7 +157,7 @@
 }
 
 .brandad__tittle-in{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(50px,normal,600,60px);
     max-width:60%;
@@ -162,7 +171,7 @@
 }
 
 .gifscont{
-    background:white;
+    background:$white;
     padding:0px 75px 0px 75px;
 }
 
@@ -265,24 +274,24 @@
 }
 
 .gifscont__tittle{
-    color: #000;
+    color: $black;
     @include font(50px,normal,600,60px);
     max-width: 55%;
 }
 
 .gifscont__textin{
-    color: #000;
+    color: $black;
     @include font(20px,normal,400,30px);
     max-width:52%;
 }
 
 .gifscont__link{
-    color: #000;
+    color: $black;
     @include font(20px,normal,600,30px);
 }
 
 .beige-bg{
-    background:#FFF8E4;
+    background:$beige;
     flex-shrink: 0; 
 }
 
@@ -296,7 +305,7 @@
 }
 
 .beige-bg__ttext{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(50px,normal,600,60px);
 }
@@ -330,24 +339,24 @@
 
 }
 .beige-bg__el-tittle{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(25px,normal,600,35px);
     padding-bottom:25px;
 }
 .beige-bg__el-text{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(18px,normal,400,25px);
 }
 
 .boosty-cont{
-    background:white;
+    background:$white;
     padding:0px 75px 60px 75px;
 }
 
 .boosty-cont__tittle{
-    color: #000;
+    color: $black;
     text-align:center;
     @include font(50px,normal,600,60px);
     padding:154px 3px 25px 3px;
@@ -374,28 +383,28 @@
 }
 
 .boosty-cont__tittlein{
-    color: #000;
+    color: $black;
     width: 166px; 
     @include font(30px,normal,600,40px);
     padding-bottom:34px;
 }
 
 .boosty-cont__textin{
-    color: #000;
+    color: $black;
     width: 407px; 
     @include font(20px,normal,400,30px);
     padding-bottom:25px;
 }
 
 .boosty-cont__linkin{
-    color: #000;
+    color: $black;
     width: 109px; 
     @include font(20px,normal,400,30px);
     text-decoration-line: underline; 
 }
 
 .quot{
-    background: #C9E8F2;
+    background: $l-blue;
     display:flex;
     gap:60px;
     padding:60px 75px 0px 75px;
@@ -408,13 +417,13 @@
 }
 
 .quot__textin{
-    color: #000;
+    color: $black;
     padding-bottom:23px;
     @include font(30px,normal,400,40px);
 }
 
 .quot__initials{
-    color: #000;
+    color: $black;
     padding-bottom:5px;
     @include font(15px,normal,400,25px);
 }
@@ -434,7 +443,7 @@
 
 .cake-cont{
     padding:0px 54px 0px 56px;
-    background-color: #DABC98;
+    background-color: $d-bige;
     display:flex;
 }
 
@@ -443,7 +452,7 @@
     flex-direction:row;
     justify-content: center;
     margin:70px 0px 80px 20px;
-    border-right: 1px solid black;
+    border-right: 1px solid $black;
 }
 
 .cake-cont__cakeimg{
@@ -453,7 +462,7 @@
 }
 
 .cake-cont__tittle{
-    color: #000;
+    color: $black;
     @include font(35px,normal,600,50px);
     padding:47px 125px 31px 67px; 
 }
@@ -480,13 +489,13 @@
 }
 
 .cake-cont__brand-txt{
-    color: #000;
+    color: $black;
     @include font(15px,normal,400,25px);
     letter-spacing: 0.75px; 
 }
 
 .bird-cont{
-    background:white;
+    background:$white;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -494,14 +503,14 @@
 }
 
 .bird-cont__tittle{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(65px,normal,600,75px);
     padding-top:169px;
 }
 
 .bird-cont__text{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(25px,normal,400,30px);
     padding-bottom:25px;
@@ -515,16 +524,16 @@
 }
 
 .bird-cont__link{
-    color: #FFF;
+    color: $white;
     text-align: center;
-    background:#FF6336;
+    background:$orange;
     @include font(16px,normal,600,60px);
     padding:0px 20px 0px 20px;
     
 }
 
 .bait{
-    background: #FF9C7D; 
+    background: $l-orange; 
     padding:0px 95px 0px 95px;
     display:flex;
     flex-direction: column;
@@ -532,7 +541,7 @@
 }
 
 .bait__tittle{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(65px,normal,600,75px);
     padding:150px 0px 30px 0px;
@@ -540,14 +549,14 @@
 }
 
 .bait__text{
-    color: #000;
+    color: $black;
     text-align: center;
     @include font(29px,normal,400,30px);
 }
 
 .bait__link{
-    color: #FFF;
-    background:#000;
+    color: $white;
+    background:$black;
     text-align: center;
     @include font(17px,normal,600,60px);
     padding:0px 40px 0px 40px;
@@ -559,8 +568,8 @@
     flex-direction: row;
     gap:70px;
     padding:92px 75px 0px 75px;
-    background:#EEEEEE;
-    border-bottom:1px solid black;
+    background:$gray;
+    border-bottom:1px solid $black;
 
 }
 
@@ -572,7 +581,7 @@
 }
 
 .footer__tittle{
-    color: #000;
+    color: $black;
     @include font(40px,normal,600,50px);
     padding-bottom:28px;
 }
@@ -581,19 +590,19 @@
     width: 300px;
     height: 300px;
     flex-shrink: 0; 
-    border: 1px solid #000; 
+    border: 1px solid $black; 
     margin-bottom:31px;
 }
 
 .footer__text{
-    color: #000;
+    color: $black;
     padding-bottom:15px;
     @include font(20px,normal,400,30px);
     max-width:50%;
 }
 
 .footer__inflink{
-    color: #000;
+    color: $black;
     @include font(20px,normal,600,30px);
 }
 
@@ -605,7 +614,7 @@
 }
 
 .footer__tittle-link{
-    color: #000;
+    color: $black;
     @include font(20px,normal,600,25px);
 }
 
@@ -621,7 +630,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background:#EEEEEE;
+    background:$gray;
     padding:48px 95px 48px 95px;
 }
 
@@ -631,6 +640,6 @@
 }
 
 .edge__right{
-    color: #000;
+    color: $black;
     @include font(12px,normal,400,15px);
 }
